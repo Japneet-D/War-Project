@@ -1,6 +1,8 @@
 # War-Project
 In this project, the code will simulate a game of War. War is a card game between two players. A description of this game and its rules can be found here: https://bicyclecards.com/how-to-play/war
 
+I will simulate a game of war using 3 different coding languages: Elixir, Haskell, & Rust. Through Elixir and Haskell, I will implement a function called deal that accepts and returns a list of integers. Through Rust, I will implement a function called deal that accepts an immutable reference to an array of u8, and returns ownership of a new array of u8. More details on the War game are provided below:
+
 Game Description
 
 The deck of cards is shuffled before the game begins. As described below, the deck will be provided into your program already shuffled. Each player receives an alternating hand of cards, giving them a total of 26 cards.
@@ -23,7 +25,4 @@ The game: Two piles will be dealt by your program using the supplied permutation
 A player's pile should always have cards at the bottom added in decreasing order of rank. That is, place the card with the highest ranking at the bottom, followed by the card with the next highest rating. Wars also fall under this category. Six cards should be added to the bottom, starting with the highest rank and ending with the smallest, if a player wins six cards as a result of a war. The highest rank is Ace, while the lowest is Two.
 
 Output: Your application will give the winner player's pile back. According to how the game was played, this pile should contain all 52 integers from the first input permutation and be arranged correctly.
-
-I will simulate a game of war using 3 different coding languages: Elixir, Haskell, & Rust. Through Elixir and Haskell, I will implement a function called deal that accepts and returns a list of integers. Through Rust, I will implement a function called deal that accepts an immutable reference to an array of u8, and returns ownership of a new array of u8. 
-
 
